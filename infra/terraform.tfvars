@@ -1,5 +1,5 @@
 # Azure Region
-location = "eastus"
+location = "southcentralus"
 
 # Resource Names
 resource_group_name = "lakehouse-rg"
