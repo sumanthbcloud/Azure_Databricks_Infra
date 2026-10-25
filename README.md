@@ -67,7 +67,11 @@ If both return version numbers, you're all set.
 ## How to Deploy (Step by Step)
 
 ### Step 1: Open Your Terminal
-Open Terminal (on Mac/Linux) or PowerShell (on Windows) and go into the project folder:
+Open Terminal (on Mac/Linux) or PowerShell (on Windows) and clone the project repo from github:
+```bash
+using git clone
+```
+
 ```bash
 cd Azure_Databricks_Infra
 ```
@@ -80,6 +84,8 @@ az login
 A browser window will open automatically. Sign in with your Azure account. Once you see the success message, you can close the browser tab and return to your terminal.
 
 *(If you have more than one Azure subscription, pick the one you want: `az account set --subscription "<SUBSCRIPTION_ID>"`)*
+
+Clone the repo from github. 
 
 ### Step 3: (Optional) Review Settings
 Open `infra/terraform.tfvars` in any text editor. It looks like this:
