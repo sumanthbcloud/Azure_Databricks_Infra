@@ -145,13 +145,13 @@ Enter a value:
 ```
 Type `yes` and press Enter (not needed if you used `--auto-approve`).
 
-**Note:** The deployment takes about 10 to 15 minutes. During this time, you will notice Terraform pause for 3 minutes at `time_sleep.wait_for_databricks`. This wait is normal and intentional—Azure Databricks needs a few minutes after the workspace is created to initialize its internal networking before it can spin up your cluster.
+**Note:** The deployment takes about 10 to 15 minutes.
 
 ### Step 7: Access Your Workspace
 When the apply finishes, Terraform will print the outputs directly in your terminal:
 
 ```text
-Apply complete! Resources: 19 added, 0 changed, 0 destroyed.
+Apply complete! Resources: 21 added, 0 changed, 0 destroyed.
 
 Outputs:
 
