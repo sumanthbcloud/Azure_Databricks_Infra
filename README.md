@@ -86,7 +86,7 @@ Open `infra/terraform.tfvars` in any text editor. It looks like this:
 
 ```hcl
 # Azure Region
-location = "eastus"
+location = "southcentralus"
 
 # Resource Names (change these if you want custom names)
 resource_group_name = "lakehouse-rg"
