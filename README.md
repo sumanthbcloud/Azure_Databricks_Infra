@@ -68,9 +68,9 @@ If both return version numbers, you're all set.
 
 ### Step 1: Open Your Terminal
 Open Terminal (on Mac/Linux) or PowerShell (on Windows) and clone the project repo from github:
-use
+copy repourl from github
 ```bash
-git clone
+git clone repourl
 ```
 
 ```bash
