@@ -93,7 +93,7 @@ Open `infra/terraform.tfvars` in any text editor. It looks like this:
 
 ```hcl
 # Azure Region
-location = "southcentralus"
+location = "eastus"
 
 # Resource Names (change these if you want custom names)
 resource_group_name = "lakehouse-rg"
@@ -107,7 +107,7 @@ host_subnet_prefixes      = ["10.20.1.0/24"]
 container_subnet_prefixes = ["10.20.2.0/24"]
 
 # Databricks Compute Settings
-cluster_node_type_id            = "Standard_D4ds_v5"
+cluster_node_type_id            = "Standard_D4ds_v4"
 cluster_autotermination_minutes = 180
 
 # ADLS Gen2 Storage
